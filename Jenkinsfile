@@ -5,7 +5,7 @@ pipeline {
             steps {
                 // sh "rm -rf TicketBookingServiceJunitTesting"
                 sh "git clone https://github.com/abdul33949/Jenkins-Test.git"
-                sh "mvn clean -f TicketBookingServiceJunitTesting"
+                sh "mvn clean -f Jenkins-Test.git"
             }
         }
         stage('install') {
